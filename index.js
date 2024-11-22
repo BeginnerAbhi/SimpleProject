@@ -20,3 +20,6 @@ const numbers = [1, 2, 3, 4, 5, 6];
 console.log("Even Numbers:", findEvenNumbers(numbers));
 console.log("Odd Numbers:", findOddNumbers(numbers));
 printPattern(5);
+
+
+// above is javascrit code for different operations
