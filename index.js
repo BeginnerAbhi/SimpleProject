@@ -8,6 +8,10 @@ function findOddNumbers(arr) {
     return arr.filter(num => num % 2 !== 0);
 }
 
+if (!Array.isArray(arr)) {
+    throw new Error("Input must be an array");
+}
+
 // Function to print a pattern
 function printPattern(n) {
     for (let i = 1; i <= n; i++) {
